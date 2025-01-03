@@ -1,0 +1,1 @@
+0 23 * * * cd /home/sergey/de && /home/sergey/de/.venv/bin/python /home/sergey/de/main.py  --host <host_ip> --port <host_port> --dbname <db_name> --user <user_name> --password <password> --processing-dates 20210302,20210303 >> /tmp/de-etl.log 2>&1
